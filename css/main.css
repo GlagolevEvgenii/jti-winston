@@ -66,10 +66,9 @@ body {
     min-height: calc(100vh - 102px);
 }
 .main-content{
-    padding-top: 178px;
+    padding-top: 127px;
     padding-bottom: 54px;
     text-align: center;
-
 }
 .regular-content{
     padding: 40px 0;
@@ -353,5 +352,12 @@ body {
     }
     .regular-title{
         font-size: 35px;
+    }
+}
+@media (min-width: 480px) {
+    .main-content{
+        padding-top: 178px;
+        padding-bottom: 54px;
+        text-align: center;
     }
 }
