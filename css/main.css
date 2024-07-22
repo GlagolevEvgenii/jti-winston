@@ -97,7 +97,7 @@ body {
 }
 .items-holder{
     display: flex;
-    gap:19px;
+    gap:17px;
     max-width: 393px;
     margin: 0 auto 15px;
 }
