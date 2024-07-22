@@ -97,7 +97,7 @@ body {
 }
 .items-holder{
     display: flex;
-    gap:30px;
+    gap:19px;
     max-width: 393px;
     margin: 0 auto 15px;
 }
@@ -136,14 +136,14 @@ body {
 }
 .item-row{
     display: flex;
-    gap:30px;
+    gap:19px;
     max-width: 393px;
     margin: 0 auto 44px;
 }
 .row-text{
     color: #C3153D;
     text-shadow: -2px 0 #FEFEFE, 0 2px #FEFEFE, 2px 0 #FEFEFE, 0 -2px #FEFEFE;
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
@@ -254,7 +254,7 @@ body {
 
 .regular-title{
     color: #337BCC;
-    font-size: 35px;
+    font-size: 33px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
@@ -340,4 +340,18 @@ body {
     max-width: 480px;
     width: 100%;
     margin: 0 auto;
+}
+@media (min-width: 414px) {
+    .items-holder{
+        gap:30px;
+    }
+    .item-row{
+        gap:30px;
+    }
+    .row-text{
+        font-size: 17px;
+    }
+    .regular-title{
+        font-size: 35px;
+    }
 }
