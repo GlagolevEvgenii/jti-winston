@@ -340,6 +340,48 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.privacy-bg{
+    background: #FFFFFF;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+.main-list{
+    margin: 0;
+    padding: 0;
+}
+.sub-list{
+    margin: 0;
+    padding: 0;
+}
+.privacy-title{
+    color: #337BCC;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.privacy-item{
+    color: #586371;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.privacy-text{
+    color: #586371;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+ol { counter-reset: item }
+li{ display: block }
+li:before { content: counters(item, ".") " "; counter-increment: item }
 @media (min-width: 414px) {
     .items-holder{
         gap:30px;
