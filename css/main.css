@@ -75,10 +75,25 @@ body {
     padding: 40px 0;
     text-align: center;
 }
+
+.icon-content{
+    padding: 97px 0 143px;
+    text-align: center;
+}
+
+.small-content{
+    padding: 65px 0 5px;
+    text-align: center;
+}
+
 .img-win{
     max-width: 450px;
+    width: 100%;
     margin: 0 auto 22px;
     display: block;
+}
+.img-icon{
+    margin-bottom: 50px;
 }
 .items-holder{
     display: flex;
@@ -90,6 +105,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 13px;
+}
+.item:last-of-type .item-text{
+    margin-left: -14px;
 }
 .item-icon{
     height: 72px;
@@ -107,9 +125,7 @@ body {
 .item-text{
     color: #337BCC;
     text-align: center;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #FEFEFE;
-    -webkit-text-fill-color: #337BCC;
+    text-shadow: -2px 0 #FEFEFE, 0 2px #FEFEFE, 2px 0 #FEFEFE, 0 -2px #FEFEFE;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -126,9 +142,8 @@ body {
 }
 .row-text{
     color: #C3153D;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #FEFEFE;
-    font-size: 19px;
+    text-shadow: -2px 0 #FEFEFE, 0 2px #FEFEFE, 2px 0 #FEFEFE, 0 -2px #FEFEFE;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
@@ -136,13 +151,10 @@ body {
     text-align: left;
 }
 .icon-button{
-    border: none;
-    outline: none;
-    padding: 0;
     margin-bottom: 35px;
-    height: 80px;
-    border-radius: 14px;
-    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn{
@@ -247,6 +259,8 @@ body {
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
+    margin-top: 0;
+    text-align: center;
 }
 
 .regular-title.big-mode{
@@ -261,6 +275,7 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.3px;
+    margin: 0;
 }
 
 .regular-text.small-mode{
@@ -307,13 +322,22 @@ body {
 .mb-55{
     margin-bottom: 55px;
 }
+.mt-50{
+    margin-top: 50px;
+}
+.mt-90{
+    margin-top: 90px;
+}
+.mt-140{
+    margin-top: 140px;
+}
 .footer{
-    height: 102px;
     background-color: #FFFFFF;
     text-align: center;
 }
 .footer img{
     display: flex;
     max-width: 480px;
+    width: 100%;
     margin: 0 auto;
 }
